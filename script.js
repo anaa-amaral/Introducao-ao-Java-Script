@@ -1,0 +1,4 @@
+//Variáveis
+
+//Funções
+function verificarPar()
