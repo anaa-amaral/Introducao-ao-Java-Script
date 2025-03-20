@@ -2,6 +2,7 @@
 //let numero = prompt('Digite seu número:');
 //let numer1 = parseFloat(prompt('Digite seu número:'));
 //let numer2 = parseFloat(prompt('Digite seu número:'));
+let numer = 10;
 
 //Funções
 function verificarPar() {
@@ -25,6 +26,11 @@ function calcular(numer1,numer2) {
     }
     
 }
+
+do {
+    console.log ( numer -- )
+}
+while ( numer > 0)
 
 //Chamando Função
 //verificarPar();
