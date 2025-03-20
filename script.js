@@ -1,10 +1,7 @@
 //Variáveis
-//let numero = prompt('Digite seu número:');
-//let numer1 = parseFloat(prompt('Digite seu número:'));
-//let numer2 = parseFloat(prompt('Digite seu número:'));
-//let numer = 10;
 
 //Funções
+let numero = prompt('Digite seu número:');
 function verificarPar() {
 
     if (numero % 2 === 0) {
@@ -13,7 +10,8 @@ function verificarPar() {
         console.log('Esse número é ímpar!');
     }
 }
-
+let numer1 = parseFloat(prompt('Digite seu número:'));
+let numer2 = parseFloat(prompt('Digite seu número:'));
 function calcular(numer1, numer2) {
 
     console.log(numer1 + numer2);
@@ -26,7 +24,7 @@ function calcular(numer1, numer2) {
     }
 
 }
-
+let numer = 10;
 //do {
 //console.log ( numer -- );
 //}
@@ -42,5 +40,5 @@ function inverterTexto(palavra) {
 //Chamando Função
 //verificarPar();
 //calcular(numer1,numer2);
-inverterTexto(palavra);
+//inverterTexto(palavra);
 
