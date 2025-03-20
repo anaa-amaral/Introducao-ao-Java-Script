@@ -2,7 +2,7 @@
 //let numero = prompt('Digite seu número:');
 //let numer1 = parseFloat(prompt('Digite seu número:'));
 //let numer2 = parseFloat(prompt('Digite seu número:'));
-let numer = 10;
+//let numer = 10;
 
 //Funções
 function verificarPar() {
@@ -14,26 +14,33 @@ function verificarPar() {
     }
 }
 
-function calcular(numer1,numer2) {
+function calcular(numer1, numer2) {
 
     console.log(numer1 + numer2);
     console.log(numer1 - numer2);
     console.log(numer1 * numer2);
-    if ( numer2 === 0 ) {
+    if (numer2 === 0) {
         console.log(' não é possível ');
     } else {
         console.log(numer1 / numer2);
     }
-    
+
 }
 
-do {
-    console.log ( numer -- )
+//do {
+//console.log ( numer -- );
+//}
+//while ( numer > 0); coloquei como comentário para não se repetir
+
+let palavra = prompt('Digite sua palavra');
+
+function inverterTexto(palavra) {
+    console.log(palavra.split("").reverse().join(""));
 }
-while ( numer > 0)
+
 
 //Chamando Função
 //verificarPar();
 //calcular(numer1,numer2);
-
+inverterTexto(palavra);
 
