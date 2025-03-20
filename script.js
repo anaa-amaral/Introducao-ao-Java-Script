@@ -10,6 +10,7 @@ function verificarPar() {
         console.log('Esse número é ímpar!');
     }
 }
+
 let numer1 = parseFloat(prompt('Digite seu número:'));
 let numer2 = parseFloat(prompt('Digite seu número:'));
 function calcular(numer1, numer2) {
@@ -24,6 +25,7 @@ function calcular(numer1, numer2) {
     }
 
 }
+
 let numer = 10;
 //do {
 //console.log ( numer -- );
@@ -31,11 +33,21 @@ let numer = 10;
 //while ( numer > 0); coloquei como comentário para não se repetir
 
 let palavra = prompt('Digite sua palavra');
-
 function inverterTexto(palavra) {
     console.log(palavra.split("").reverse().join(""));
 }
 
+let num = parseFloat(prompt('Digite sua palavra'))
+function contarCaracteres ( num ) {
+    console.log(myString);
+    console.log(myString.length);
+}
+
+myString.length = 4;
+console.log(myString);
+// retorna  "campainhas"
+console.log(myString.length);
+// retorna 10
 
 //Chamando Função
 //verificarPar();
