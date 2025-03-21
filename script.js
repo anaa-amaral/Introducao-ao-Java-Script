@@ -60,6 +60,14 @@ function mensagemPersonalizada( nome, mensagem ) {
     console.log ( mensagem + nome);
 }
 
+let n1 = parseFloat(prompt('Digite seu número:'));
+let n2 = parseFloat(prompt('Digite seu número:'));
+let n3 = parseFloat(prompt('Digite seu número:'));
+function media ( n1, n2, n3 ) {
+    console.log ( (n1 + n2 + n3)/3 );
+}
+
+
 //Chamando Função
 //verificarPar();
 //calcular(numer1,numer2);
@@ -67,3 +75,4 @@ function mensagemPersonalizada( nome, mensagem ) {
 //contarCaracteres(num);
 //meuCarro.exibirInformacoes();
 //mensagemPersonalizada( nome, mensagem);
+media( n1, n2, n3);
