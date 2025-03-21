@@ -10,6 +10,7 @@ function verificarPar() {
         console.log('Esse número é ímpar!');
     }
 }
+//verificarPar();
 
 //let numer1 = parseFloat(prompt('Digite seu número:'));
 //let numer2 = parseFloat(prompt('Digite seu número:'));
@@ -25,6 +26,7 @@ function calcular(numer1, numer2) {
     }
 
 }
+//calcular(numer1,numer2);
 
 //let numer = 10;
 //do {
@@ -36,11 +38,13 @@ function calcular(numer1, numer2) {
 function inverterTexto(palavra) {
     console.log(palavra.split("").reverse().join(""));
 }
+//inverterTexto(palavra);
 
 //let num = prompt('Digite sua palavra:');
 function contarCaracteres(num) {
     console.log(num.length);
 }
+//contarCaracteres(num);
 
 class Carro {
     constructor(marca, modelo, ano) {
@@ -53,12 +57,14 @@ class Carro {
     }
 }
 const meuCarro = new Carro('Spyder', 'Porshe', '1998');
+//meuCarro.exibirInformacoes();
 
 //let nome = prompt('Digite seu nome:');
 const mensagem = 'Olá';
 function mensagemPersonalizada(nome, mensagem) {
     console.log(mensagem + nome);
 }
+//mensagemPersonalizada( nome, mensagem);
 
 //let n1 = parseFloat(prompt('Digite seu número:'));
 //let n2 = parseFloat(prompt('Digite seu número:'));
@@ -67,6 +73,7 @@ function mensagemPersonalizada(nome, mensagem) {
 function media(n1, n2, n3) {
     console.log((n1 + n2 + n3) / 3);
 }
+//media( n1, n2, n3);
 
 //for ( let num = 1; num < 21; num++) {
 //console.log ( num)
@@ -86,6 +93,7 @@ function verificarPalavra(pala) {
         console.log(' Essa palavra não é Palindroma');
     }
 }
+//verificarPalavra (pala);
 
 //let n =  parseFloat(prompt('Digite seu número:'));
 function verificarSinal(n) {
@@ -97,30 +105,33 @@ function verificarSinal(n) {
         console.log(' Esse número é negativo');
     }
 }
+//verificarSinal( n );
 
 //let temperaturacelcius =  parseFloat(prompt('Digite o grau em celsius que você deseja converter:'));
 function converterTemperatura() {
     console.log((temperaturacelcius * 1.8) + 32);
 }
+//converterTemperatura(temperaturacelcius);
 
-let num = 0
-let soma =0
-while (num < 101) {
-    num++
-    console.log(num);
-    soma = soma + num;
+//let num = 0
+//let soma =0
+//while (num < 101) {
+    //num++
+    //console.log(num);
+    //soma = soma + num;
+//}
+//console.log(soma);
+
+
+function substituirPalavra(resultado) {
+    console.log(resultado.replace(/azul/g, 'vermelho'))
 }
-console.log(soma);
-
+let frase = prompt('Digite sua frase contendo a palavra azul:');
+substituirPalavra(frase);
 
 //Chamando Função
-//verificarPar();
-//calcular(numer1,numer2);
-//inverterTexto(palavra);
-//contarCaracteres(num);
-//meuCarro.exibirInformacoes();
-//mensagemPersonalizada( nome, mensagem);
-//media( n1, n2, n3);
-//verificarPalavra (pala);
-//verificarSinal( n );
-//converterTemperatura(temperaturacelcius);
+
+
+
+
+
