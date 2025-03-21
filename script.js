@@ -60,11 +60,20 @@ function mensagemPersonalizada( nome, mensagem ) {
     console.log ( mensagem + nome);
 }
 
-let n1 = parseFloat(prompt('Digite seu número:'));
-let n2 = parseFloat(prompt('Digite seu número:'));
-let n3 = parseFloat(prompt('Digite seu número:'));
+//let n1 = parseFloat(prompt('Digite seu número:'));
+//let n2 = parseFloat(prompt('Digite seu número:'));
+//let n3 = parseFloat(prompt('Digite seu número:'));
 function media ( n1, n2, n3 ) {
     console.log ( (n1 + n2 + n3)/3 );
+}
+
+for ( let num = 1; num < 21; num++) {
+    console.log ( num)
+    if (num % 3 === 0) {
+        console.log ('Esse número é multiplo de 3');
+    } else {
+        console.log ('Esse número não é multiplo de 3');
+    }
 }
 
 
@@ -75,4 +84,4 @@ function media ( n1, n2, n3 ) {
 //contarCaracteres(num);
 //meuCarro.exibirInformacoes();
 //mensagemPersonalizada( nome, mensagem);
-media( n1, n2, n3);
+//media( n1, n2, n3);
