@@ -38,7 +38,7 @@ function inverterTexto(palavra) {
 }
 
 //let num = prompt('Digite sua palavra:');
-function contarCaracteres ( num ) {
+function contarCaracteres(num) {
     console.log(num.length);
 }
 
@@ -56,52 +56,61 @@ const meuCarro = new Carro('Spyder', 'Porshe', '1998');
 
 //let nome = prompt('Digite seu nome:');
 const mensagem = 'Olá';
-function mensagemPersonalizada( nome, mensagem ) {
-    console.log ( mensagem + nome);
+function mensagemPersonalizada(nome, mensagem) {
+    console.log(mensagem + nome);
 }
 
 //let n1 = parseFloat(prompt('Digite seu número:'));
 //let n2 = parseFloat(prompt('Digite seu número:'));
 //let n3 = parseFloat(prompt('Digite seu número:'));
 
-function media ( n1, n2, n3 ) {
-    console.log ( (n1 + n2 + n3)/3 );
+function media(n1, n2, n3) {
+    console.log((n1 + n2 + n3) / 3);
 }
 
 //for ( let num = 1; num < 21; num++) {
-    //console.log ( num)
-    //if (num % 3 === 0) {
-      //  console.log ('Esse número é multiplo de 3');
-    //} else {
-       // console.log ('Esse número não é multiplo de 3');
-    //}
+//console.log ( num)
+//if (num % 3 === 0) {
+//  console.log ('Esse número é multiplo de 3');
+//} else {
+// console.log ('Esse número não é multiplo de 3');
+//}
 //}
 
 //let pala = (prompt('Digite sua palavra:'));
-function verificarPalavra ( pala ) {
+function verificarPalavra(pala) {
     let palindroma = (pala.split("").reverse().join(""));
-    if ( pala === palindroma ){
-        console.log (' Essa palavra é Palindroma');
-    }else{
-        console.log (' Essa palavra não é Palindroma');
+    if (pala === palindroma) {
+        console.log(' Essa palavra é Palindroma');
+    } else {
+        console.log(' Essa palavra não é Palindroma');
     }
-}    
+}
 
 //let n =  parseFloat(prompt('Digite seu número:'));
-function verificarSinal ( n ) {
-    if ( n > 0 ){
-        console.log (' Esse número é positivo');        
-    }else if(n === 0 ) {
-        console.log (' Esse número é zero');      
-    }else{
-        console.log (' Esse número é negativo');   
+function verificarSinal(n) {
+    if (n > 0) {
+        console.log(' Esse número é positivo');
+    } else if (n === 0) {
+        console.log(' Esse número é zero');
+    } else {
+        console.log(' Esse número é negativo');
     }
 }
 
 //let temperaturacelcius =  parseFloat(prompt('Digite o grau em celsius que você deseja converter:'));
-function converterTemperatura ( ) {
-    console.log ( (temperaturacelcius * 1.8) + 32 );
+function converterTemperatura() {
+    console.log((temperaturacelcius * 1.8) + 32);
 }
+
+let num = 0
+let soma =0
+while (num < 101) {
+    num++
+    console.log(num);
+    soma = soma + num;
+}
+console.log(soma);
 
 
 //Chamando Função
