@@ -87,7 +87,7 @@ function verificarPalavra ( pala ) {
     }
 }    
 
-let n =  parseFloat(prompt('Digite seu número:'));
+//let n =  parseFloat(prompt('Digite seu número:'));
 function verificarSinal ( n ) {
     if ( n > 0 ){
         console.log (' Esse número é positivo');        
@@ -98,6 +98,12 @@ function verificarSinal ( n ) {
     }
 }
 
+//let temperaturacelcius =  parseFloat(prompt('Digite o grau em celsius que você deseja converter:'));
+function converterTemperatura ( ) {
+    console.log ( (temperaturacelcius * 1.8) + 32 );
+}
+
+
 //Chamando Função
 //verificarPar();
 //calcular(numer1,numer2);
@@ -107,4 +113,5 @@ function verificarSinal ( n ) {
 //mensagemPersonalizada( nome, mensagem);
 //media( n1, n2, n3);
 //verificarPalavra (pala);
-verificarSinal( n );
+//verificarSinal( n );
+//converterTemperatura(temperaturacelcius);
