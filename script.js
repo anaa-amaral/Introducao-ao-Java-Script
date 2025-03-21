@@ -1,7 +1,7 @@
 //Variáveis
 
 //Funções
-let numero = prompt('Digite seu número:');
+//let numero = prompt('Digite seu número:');
 function verificarPar() {
 
     if (numero % 2 === 0) {
@@ -11,8 +11,8 @@ function verificarPar() {
     }
 }
 
-let numer1 = parseFloat(prompt('Digite seu número:'));
-let numer2 = parseFloat(prompt('Digite seu número:'));
+//let numer1 = parseFloat(prompt('Digite seu número:'));
+//let numer2 = parseFloat(prompt('Digite seu número:'));
 function calcular(numer1, numer2) {
 
     console.log(numer1 + numer2);
@@ -26,31 +26,38 @@ function calcular(numer1, numer2) {
 
 }
 
-let numer = 10;
+//let numer = 10;
 //do {
 //console.log ( numer -- );
 //}
 //while ( numer > 0); coloquei como comentário para não se repetir
 
-let palavra = prompt('Digite sua palavra');
+//let palavra = prompt('Digite sua palavra');
 function inverterTexto(palavra) {
     console.log(palavra.split("").reverse().join(""));
 }
 
-let num = parseFloat(prompt('Digite sua palavra'))
+//let num = prompt('Digite sua palavra:');
 function contarCaracteres ( num ) {
-    console.log(myString);
-    console.log(myString.length);
+    console.log(num.length);
 }
 
-myString.length = 4;
-console.log(myString);
-// retorna  "campainhas"
-console.log(myString.length);
-// retorna 10
+class Carro {
+    constructor(marca, modelo, ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+    exibirInformacoes() {
+        console.log(`Carro: ${this.marca} ${this.modelo} ${this.ano}`);
+    }
+}
+const meuCarro = new Carro('Spyder', 'Porshe', '1998');
+
 
 //Chamando Função
 //verificarPar();
 //calcular(numer1,numer2);
 //inverterTexto(palavra);
-
+//contarCaracteres(num);
+meuCarro.exibirInformacoes();
