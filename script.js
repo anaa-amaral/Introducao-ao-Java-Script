@@ -54,10 +54,16 @@ class Carro {
 }
 const meuCarro = new Carro('Spyder', 'Porshe', '1998');
 
+//let nome = prompt('Digite seu nome:');
+const mensagem = 'Olá';
+function mensagemPersonalizada( nome, mensagem ) {
+    console.log ( mensagem + nome);
+}
 
 //Chamando Função
 //verificarPar();
 //calcular(numer1,numer2);
 //inverterTexto(palavra);
 //contarCaracteres(num);
-meuCarro.exibirInformacoes();
+//meuCarro.exibirInformacoes();
+//mensagemPersonalizada( nome, mensagem);
